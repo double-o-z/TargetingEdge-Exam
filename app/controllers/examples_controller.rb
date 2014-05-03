@@ -22,7 +22,7 @@ class ExamplesController < ApplicationController
   end
 
   def contents
-    path = params[:thisRow].to_s + "/*"
+    path = params[:thisFolder].to_s + "/*"
     dir = Dir[path]
     @contents = {}
     dir.each do |item|
