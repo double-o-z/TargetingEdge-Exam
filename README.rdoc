@@ -9,22 +9,23 @@ url: /mission1
 
 
 mission2:
-copy a given url, exactly.
+copy a given url, exactly as it is.
 url: /clash-of-clans
 (used wget -r) (all links become absolute path instead of relative. example: http://www.xxx...)
 also note:
-the reason the page didnt look exactly in the interview :
+the reason the page didnt look exactly in the interview exam:
 when i generated my controllers, views, models, routes with 'rails generate scaffold' command,
-it also generated css files, adding 'inline' property, thus making the page look a bit different.
-took care of that... also, now with wget -r, i dont get code statud 404....
+it also generated css files, adding 'inline spacing' property, thus making the page look a bit different.
+took care of that... also, now with wget -r, i dont get code status 404....
 
 
 
 mission3:
-create a super simple file system browser. 1 necesity : ajax to tranfer data.
-used a server-side rails method to create the data, used ajax calls to tranfer it to page. didnt render html even once without ajax.
+create a super simple file system browser. the only necessity: ajax to tranfer data.
+used a server-side rails method to create the data, used ajax calls to transfer it to page. didnt render html even once without ajax.
 files color = black
 folder color = blue
+1 folder back path = green
 
 github code repository:
 https://github.com/or-ohev-zion/exam.git
