@@ -6,4 +6,31 @@
 </div>
 
 
-<% javascript_include_tag "/public/fileSystemBrowser" %>
+<script>
+
+  function replaceBrowserContents (el){
+      var thisFolder = el.innerHTML;
+      $.ajax({
+          url: "/contents",
+          data: {'thisFolder': thisFolder},
+          success: function (result){
+              for(var key in result){
+                  if(result.hasOwnProperty(key)){
+                      var 
+                      if(result[key]){
+
+                      }
+                  }
+              }
+          }
+      });
+  }
+  $(document).ready(function (){
+      replaceBrowserContents("/home/or/Downloads");
+      $('.contents').on('click', '.row', function(){
+          var thisElement = $(this).innerHTML;
+          replaceBrowserContents(thisElement);
+      })
+  });
+</script>
+

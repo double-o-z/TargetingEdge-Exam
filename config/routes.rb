@@ -3,7 +3,7 @@ Exam::Application.routes.draw do
   get '/mission1' => 'examples#mission1'
   get '/clash-of-clans' => 'examples#mission2'
   get '/mission3' => 'examples#mission3'
-  post '/contents' => 'examples#contents'
+  get '/contents' => 'examples#contents'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
