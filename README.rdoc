@@ -1,28 +1,34 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Hi Ilya :)
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+mission 1:
+create web server (made rails 4 on ubuntu, managed by amazon ec2), with a working web page.
+url: /mission1
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+
+
+mission2:
+copy a given url, exactly.
+url: /clash-of-clans
+(used wget -r) (all links become absolute path instead of relative. example: http://www.xxx...)
+also note:
+the reason the page didnt look exactly in the interview :
+when i generated my controllers, views, models, routes with 'rails generate scaffold' command,
+it also generated css files, adding 'inline' property, thus making the page look a bit different.
+took care of that... also, now with wget -r, i dont get code statud 404....
+
+
+
+mission3:
+create a super simple file system browser. 1 necesity : ajax to tranfer data.
+used a server-side rails method to create the data, used ajax calls to tranfer it to page. didnt render html even once without ajax.
+files color = black
+folder color = blue
+
+github code repository:
+https://github.com/or-ohev-zion/exam.git
+
+ec2 ip:
+
