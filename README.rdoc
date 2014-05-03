@@ -28,7 +28,8 @@ folder color = blue
 1 folder back path = green
 
 github code repository:
+
 https://github.com/or-ohev-zion/exam.git
 
-ec2 ip:
+ec2 ip:  http://54.186.170.214:3000/mission3
 
