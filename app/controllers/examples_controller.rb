@@ -9,7 +9,7 @@ class ExamplesController < ApplicationController
   end
 
   def mission3
-    dir = Dir["/home/or/Downloads/*"]
+    dir = Dir["/home/*"]
     @contents = {}
     dir.each do |item|
       if File.directory?(item) then

@@ -33,7 +33,7 @@ function replaceBrowserContents (elm){
     });
 }
 $(document).ready(function (){
-    replaceBrowserContents("/home/or/Downloads"); // change this to a local folder.
+    replaceBrowserContents("/home"); // change this to a local folder.
     $('.contents').on('click', '.row', function(){
         var thisElement = $(this).text();
         replaceBrowserContents(thisElement);
